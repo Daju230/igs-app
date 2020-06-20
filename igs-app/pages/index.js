@@ -1,12 +1,8 @@
-import Head from 'next/head'
+import Layout from '../components/layout';
 
-export default function Home() {
-  return (
+const Home = () => (
+    <Layout>
     <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main>
         <h1 className="title">
@@ -205,5 +201,8 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
-}
+    </Layout>
+  );
+
+
+export default Home
