@@ -5,6 +5,11 @@ const Home = () => (
     <div className="container">
 
       <main>
+        <header>
+        <div className="menu"></div>
+        <div className="menu"></div>
+        <div className="menu"></div>
+        </header>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -98,6 +103,19 @@ const Home = () => (
           text-decoration: none;
         }
 
+        header {
+          display:block;
+          position:absolute;
+          right:50px;
+          top:50px;
+          z-index:200;
+        }
+        .menu {
+          width: 35px;
+          height: 5px;
+          background-color: black;
+          margin: 6px 0;
+        }
         .title a {
           color: #0070f3;
           text-decoration: none;
