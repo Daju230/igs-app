@@ -2,8 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const links = [
-  { href: 'https://zeit.co/now', label: 'ZEIT' },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub' }
+  { href: 'https://drive.google.com/drive/u/0/folders/1fmRIf1gTuescmvOBDq6PRcW9qIguL3de', label: 'Pricing Pages' },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
@@ -15,11 +14,6 @@ const Nav = () => (
       <li>
         <Link href="/">
           <a>Home</a>
-        </Link>
-        </li>
-        <li>
-        <Link href="/howto">
-          <a>How To Use</a>
         </Link>
         </li>
       {links.map(({ key, href, label }) => (
@@ -34,29 +28,27 @@ const Nav = () => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
           Helvetica, sans-serif;
-        
-      }
-      nav {
-        background-color: pink;
-        text-align: center;
-        height: 100vh;
       }
       ul {
-        display: block;
-        margin: 60px;
-      }
-      nav > ul {
-        padding: 4px 16px;
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+        list-style-type: none;
+        background-color: #4B88A2;
       }
       li {
-        display: flex;
-        justify-content: space-between;
-        padding: 26px 8px;
+        float:left;
       }
-      a {
-        color: #067df7;
+      li a {
+        display: block;
+        color: #FFF9FB;
+        text-align: center;
+        padding: 14px 16px;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 2em;
+      }
+      li a:hover {
+        color: #D3D4D9;
       }
     `}</style>
   </nav>

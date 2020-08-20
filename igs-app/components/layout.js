@@ -5,8 +5,8 @@ const Layout = ({ children }) => {
     return (
         <div>
             <Head>
-                <title>Home</title>
-                <link rel='icon' href='/favicon.ico' />
+                <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
+                <title>IGS Quoting App</title>
             </Head>
             <Nav />
             <main>{children}</main>
