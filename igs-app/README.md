@@ -6,5 +6,5 @@
 ## Technologies
 Created with:
 
-*Javascript
-*NextJS
+* Javascript
+* NextJS
