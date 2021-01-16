@@ -9,4 +9,4 @@ Created with:
 * Javascript
 * NextJS
 
-![Screenshot](Screen Shot 2021-01-16 at 11.36.55 AM.png)
+![Screenshot](https://github.com/Daju230/igs-app/blob/master/igs-app/Screen%20Shot%202021-01-16%20at%2011.36.55%20AM.png)
